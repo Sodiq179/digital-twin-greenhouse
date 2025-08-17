@@ -17,7 +17,7 @@ The framework integrates a Unity 3D digital-twin simulation of a 56-node sensor 
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 digital-twin-greenhouse/
@@ -60,7 +60,7 @@ digital-twin-greenhouse/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1️⃣ Unity Environment
 1. Install [Unity Hub](https://unity.com/download) (tested on **Unity 2022.x**).
@@ -100,7 +100,7 @@ serverless deploy
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 Sample console output after running `main.py`:
 ```
@@ -110,18 +110,18 @@ Coverage Accuracy: 94.8%
 
 ---
 
-## 📜 Code Availability Statement
+## Code Availability Statement
 
 The complete Unity 3D simulation environment, Python RL module, and AWS deployment scripts are provided for peer review in this private repository. Upon publication, the repository will be made publicly accessible under the MIT License.
 
 ---
 
-## 📜 License
+## License
 This repository is licensed under the MIT License – see the `LICENSE` file for details.
 
 ---
 
-## 📬 Contact
+##  Contact
 **Sodiq Damilola Babawale**  
 Email: babawalesodiq996@gmail.com 
 Affiliation: University of Ibadan
