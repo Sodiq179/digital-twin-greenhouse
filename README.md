@@ -8,7 +8,7 @@ The framework integrates a Unity 3D digital-twin simulation of a 56-node sensor 
 
 ---
 
-## 📖 Overview
+## Overview
 
 ### Key Components:
 1. **Unity 3D Simulation** – Models the strawberry greenhouse and sensor placement in a 3D environment.
