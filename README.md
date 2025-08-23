@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # Digital Twin Greenhouse with Thompson Sampling
 
 This repository contains the complete code, Unity 3D environment, and documentation for the paper:
@@ -71,18 +71,8 @@ Open the Jupyter Notebook:
 jupyter notebook rl_notebook/thompson_sampling.ipynb
 ````
 
-The notebook simulates adaptive sensor selection and reports coverage accuracy and redundancy reduction.
 
----
 
-## Example Output
-
-Sample output from the notebook:
-
-```
-Episode 1: Selected sensors = [3, 14, 25, 41, 55]
-Coverage Accuracy: 94.8%
-```
 
 ---
 
