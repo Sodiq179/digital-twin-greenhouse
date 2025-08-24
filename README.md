@@ -39,13 +39,6 @@ digital-twin-greenhouse/
 ├── rl\_notebook/                # Reinforcement learning module
 │   └── thompson\_sampling.ipynb
 │
-├── data/                       # Example dataset (synthetic)
-│   ├── sensor\_metadata.csv
-│   └── README.md
-│
-├── docs/                       # Documentation and figures
-│   ├── block\_diagram.png
-│   └── system\_overview\.md
 │
 ├── LICENSE
 ├── README.md
