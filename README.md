@@ -87,7 +87,7 @@ This repository is licensed under the MIT License – see the `LICENSE` file for
 **Sodiq Damilola Babawale**
 Email: [babawalesodiq996@gmail.com](mailto:babawalesodiq996@gmail.com)
 Affiliation: University of Ibadan
----
+
 **Oreofeoluwa Akintan**
 Email: [akintano@msu.edu](mailto:akintano@msu.edu)
 Affiliation: Michigan State University
