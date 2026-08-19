@@ -1,6 +1,3 @@
-
-
-
 # Digital Twin Greenhouse with Thompson Sampling
 
 This repository contains the complete code, Unity 3D environment, and documentation for the paper:
@@ -15,85 +12,32 @@ The framework integrates a Unity 3D digital-twin simulation of a 56-node sensor 
 
 ### Key Components
 1. **Unity 3D Simulation** – Models the strawberry greenhouse and sensor placement in a 3D environment.  
-2. **Reinforcement Learning Notebook** – A single Jupyter Notebook implementing Thompson Sampling for sensor selection.  
+2. **Reinforcement Learning Notebook** – A single Jupyter Notebook implementing Thompson Sampling for sensor selection. 
+3. **Python Optimization Package (`opt_rl_package`)** – A pip-installable Python package extracted from the notebook that streamlines psychrometric calculations, 3D visualizations, and the Thompson Sampling pipeline for use in external scripts.
 
 ---
 
 ## Repository Structure
 
-```
-
+```text
 digital-twin-greenhouse/
 │
-├── blender/                    # Source assets + exports
-│   ├── models/                 # .blend sources
-│   ├── textures/               # PNG/EXR
-│   ├── exports/                # FBX/GLB imported into Unity
+├── blender/                     # Source assets + exports
+│   ├── models/                  # .blend sources
+│   ├── textures/                # PNG/EXR
+│   ├── exports/                 # FBX/GLB imported into Unity
 │   └── README.md
 │
-├── unity\_scene/                # Unity project files
+├── unity_scene/                 # Unity project files
 │   ├── Assets/
 │   ├── ProjectSettings/
 │   └── Scenes/
 │
-├── rl\_notebook/                # Reinforcement learning module
-│   └── thompson\_sampling.ipynb
-│
+├── opt_rl_package/              # Installable Python package
+│   ├── src/opt_rl_package/      # Core package logic (core.py)
+│   ├── tests/                   # Pytest unit tests
+│   └── pyproject.toml           # Package build configuration
 │
 ├── LICENSE
 ├── README.md
-└── CODE\_AVAILABILITY.md
-
-````
-
----
-
-## Installation & Setup
-
-### 1. Unity Environment
-1. Install [Unity Hub](https://unity.com/download) (tested on **Unity 2022.x**).  
-2. Open the `unity_scene/` folder as a Unity project.  
-3. Run `MainScene.unity` to launch the simulation.  
-
----
-
-### 2. Reinforcement Learning Notebook
-Open the Jupyter Notebook:  
-
-```bash
-jupyter notebook rl_notebook/thompson_sampling.ipynb
-````
-
-
-
-
----
-
-## Code Availability Statement
-
-The Unity 3D simulation environment, Jupyter Notebook (reinforcement learning model), and supporting documentation are provided for **peer review** in this private repository.
-Upon publication, the repository will be made publicly accessible under the MIT License.
-
----
-
-## License
-
-This repository is licensed under the MIT License – see the `LICENSE` file for details.
-
----
-
-## Contact
-
-**Sodiq Damilola Babawale**
-Email: [babawalesodiq996@gmail.com](mailto:babawalesodiq996@gmail.com)
-Affiliation: University of Ibadan
-
-**Oreofeoluwa Akintan**
-Email: [akintano@msu.edu](mailto:akintano@msu.edu)
-Affiliation: Michigan State University
-```
-
----
-
-
-```
+└── CODE_AVAILABILITY.md
