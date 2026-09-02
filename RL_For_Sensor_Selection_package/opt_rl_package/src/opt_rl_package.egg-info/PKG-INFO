@@ -1,0 +1,46 @@
+Metadata-Version: 2.4
+Name: opt_rl_package
+Version: 0.1.0
+Summary: A reinforcement learning and psychrometric sensor optimization package.
+Author-email: Your Name <akintano@msu.edu>
+Project-URL: Homepage, https://github.com/Akintanoreofe
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: xlsxwriter
+
+
+# OSP_RL_Package
+
+A Python package for processing psychrometric data and optimizing sensor placement using Reinforcement Learning (Thompson Sampling). This package was developed from the core logic in the **OSP_RL_Package** notebook.
+
+---
+
+## Features
+
+* **Psychrometric Calculations:** Automatically compute Dew Point, Humidity Ratio, Enthalpy, and Specific Volume from standard Temperature and Relative Humidity readings.
+* **3D Data Visualization:** Map and visualize environmental variables across 2D spatial coordinates over different seasonal timeframes.
+* **Reinforcement Learning Optimization:** Utilize Thompson Sampling to rank and select the optimal sensors based on mean-crossing reward mechanisms.
+* **Automated Pipelines:** Streamline data cleaning, analysis, and report generation (CSV and Excel) in just a few lines of code.
+
+---
+
+## Installation
+
+To install this package locally, navigate to the root directory of the project in your terminal and run:
+
+>import sys
+>import os
+>
+># 1. Navigate into the root of your package directory (if you aren't already there) [cite: 162]
+>if not os.getcwd().endswith("opt_rl_package"):
+>    %cd opt_rl_package
+>
+># 2. Install the package using the current notebook's Python environment 
+>!{sys.executable} -m pip install -e .
